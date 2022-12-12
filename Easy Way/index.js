@@ -43,3 +43,5 @@ ReactDOM.render(
     nav,
     document.getElementById("root")
 )
+
+// when wrapping sibling elements in a jsx function, you need to wrap them in fragment tags <></> or in divs... otherwise, it will not work
