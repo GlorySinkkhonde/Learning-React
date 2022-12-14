@@ -1,0 +1,32 @@
+.NavigationBar{
+  padding: 2rem 4rem;
+  margin: 0;
+  box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.1);
+  
+}
+
+.NavigationBar > img{
+  width: 6rem;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeroSection{
+  margin: 4rem;
+}
+
+.HeroSection > h1{
+  font-size: 98px;
+  margin-bottom: 1rem;
+}
+
+.HeroSection > p{
+  width: 40rem;
+  font-size: 31px;
+}
