@@ -30,3 +30,35 @@
   width: 40rem;
   font-size: 31px;
 }
+
+/* Cards Styling*/
+
+.CardSection{
+  display: flex;
+  margin: 4rem;
+}
+
+.Card + .Card{
+  margin-left: 2rem;
+}
+
+.Stars{
+  color: #FE395C;
+}
+
+span + span {
+  margin-left: .1rem;
+}
+
+.Dot{
+  color: grey;
+}
+
+.Card > :nth-child(4)> span  {
+  font-weight: 600;
+}
+
+.Card{
+  border: 1px solid black;
+  padding: 2rem;
+}
