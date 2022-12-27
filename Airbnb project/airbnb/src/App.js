@@ -3,6 +3,8 @@ import Nav from './Components/Nav';
 import Hero from './Components/Hero';
 import Card from './Components/Card';
 import Sports from './images/sports.png'
+import WeddingPhoto from './images/wedding-photography.png'
+import MountainBike from './images/mountain-bike.png'
 
 function App() {
   return (
