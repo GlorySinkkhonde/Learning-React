@@ -11,9 +11,8 @@
   width: 6rem;
 }
 
-.image{
+.card-list{
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
