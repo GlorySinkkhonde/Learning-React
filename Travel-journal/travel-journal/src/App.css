@@ -1,0 +1,95 @@
+:root {
+    --main-color: #F55A5A;
+}
+
+img{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--main-color);
+    font-size: 19px;
+    color: white;
+}
+
+.header-text{
+    align-self: center;
+    padding-bottom: .5rem;
+}
+
+.earth-icon{
+    padding-right: .5rem;
+    font-size: 36px;
+}
+
+.entries-wrapper{
+    width: 80%;
+    margin: 4rem auto;
+}
+
+.japan-entry{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+hr{
+    width: 65%;
+}
+
+.image-section{
+   width: 25%;
+}
+
+.image-1{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 13px;
+}
+
+.text-section{
+    width: 40%;
+    align-self: center;
+}
+
+.section-one{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin-bottom: -1.3rem;
+}
+
+.section-one > :nth-child(2) > a{
+    text-transform: capitalize;
+    color: grey;
+    letter-spacing: 0rem;
+    font-size: 18px;
+}
+
+.location > :nth-child(1){
+    color: var(--main-color);
+}
+
+.text-section > h1 {
+    font-size: 55px;
+}
+
+.text-section > h3 {
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.text-section > p {
+    font-size: 21px;
+    margin-top: -1.3rem;
+}
+
+@media  screen and (max-width: 1193px) {
+    
+}
